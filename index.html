@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Landing Page</title>
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- animate css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container animate__animated animate__swing">
+          <a class="navbar-brand" href="#">
+            <img src="images/code.png" style="max-height: 50px;" alt=""> <h3 class="display-6 text-primary" style="display: inline-block; font-size: 22px; vertical-align: middle; font-weight: bold;">Programmer</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#"><i class="fa-sharp fa-solid fa-house"></i>  Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services"><i class="fa-sharp fa-solid fa-shield-halved"></i>  Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about"><i class="fa-sharp fa-solid fa-address-card"></i>  About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-book"></i>  Our Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-sharp fa-solid fa-address-book"></i>  Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner -->
+      <section class="banner position-relative mt-5">
+        <div class="box-shadow text-center">
+          <h1 class="display-3 mt-5 text-white">Solusi Terbaik Belajarmu</h1>
+          <p class="mt-3 text-white mb-5">Kami menyediakan banyak modul yang kamu butuhkan untuk belajar pemograman dari 0 hingga mahir</p>
+          <!-- gabung sekarang, pelajari dulu -->
+
+          <button type="button" class="btn btn-info text-white mt-5">Gabung Sekarang</button>
+          <button type="button" class="btn btn-warning text-white mt-5" id="services">Gabung Sekarang</button>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section>
+        <div class="container-fluid mb-3">
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="display-6 mt-4 text-center">Mengapa Memilih Kami ?</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about menu -->
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-lg-3 col-sm-12">
+              <span class="fa-stack fa-2x">
+                <i class="fa-sharp fa-solid fa-circle fa-stack-2x fa-2x text-success"></i>
+                <i class="fa-sharp fa-solid fa-user-group fa-stack-1x text-white"></i>
+              </span>
+
+              <h3 class="mt-3">Metode Belajar</h3>
+              <p>Bisa pilih Belajar langsung one by one atau via online lewat Aplication Meet</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+              <span class="fa-stack fa-2x">
+                <i class="fa-sharp fa-solid fa-circle fa-stack-2x fa-2x text-success"></i>
+                <i class="fa-sharp fa-solid fa-money-bill fa-stack-1x text-white"></i>
+              </span>
+
+              <h3 class="mt-3">Biaya Terjangkau</h3>
+              <p>Banyak Bootcamp dan kursus diluar sana dengan biaya 20 juta lebih, disini kamu hanya bayar dengan biaya 3 juta</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+              <span class="fa-stack fa-2x">
+                <i class="fa-sharp fa-solid fa-circle fa-stack-2x fa-2x text-success"></i>
+                <i class="fa-sharp fa-solid fa-code fa-stack-1x text-white"></i>
+              </span>
+
+              <h3 class="mt-3">Apa Yang Dipelajari</h3>
+              <p>Kamu akan belajar mengenai html, css, javascript, bootstrap, materialize, sass, jquery, react js</p>
+            </div>
+
+            <div class="col-lg-3 col-sm-12">
+              <span class="fa-stack fa-2x">
+                <i class="fa-sharp fa-solid fa-circle fa-stack-2x fa-2x text-success"></i>
+                <i class="fa-sharp fa-solid fa-comment-dots fa-stack-1x text-white"></i>
+                
+              </span>
+
+              <h3 class="mt-3">Sesi tanya jawab</h3>
+              <p>Kamu bisa bertanya kapanpun kamu mau secara private dengan mentor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- services -->
+      <section class="keuntungan text-center">
+        <div class="container-fluid mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-sm-12 mt-5">
+                <img src="images/welfare.png" style="max-height: 200px;" class="text-center" alt="">
+                <h1 class="display-3">
+                  Keuntungan Yang Akan Kamu Dapatkan
+                </h1>
+                <p>Kamu akan Bisa Bahasa Markup HTML, Bahasa stylesheet CSS dan Bahasa Pemograman Javascript Dalam Waktu Yang Relative Singkat</p>
+              </div>
+  
+              <div class="col-lg-4 col-sm-12 mt-5">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <i class="fa-sharp fa-solid fa-bars fa-2x"></i>
+                    <p class="mt-2">Belajar Terstruktur</p>
+                    <h5 style="font-weight: bold;">Diajari dari A sampai Z</h5>
+                  </div>
+                  <div class="col-lg-12">
+                    <i class="fa-sharp fa-solid fa-0 fa-2x"></i>
+                    <p class="mt-2">Dari Dasar</p>
+                    <h5 style="font-weight: bold;">Materi Dimulai Dari dasar</h5>
+                  </div>
+                  <div class="col-lg-12">
+                    <i class="fa-sharp fa-solid fa-certificate fa-2x"></i>
+                    <p class="mt-2">Sertifikat Pelatihan</p>
+                    <h5 style="font-weight: bold;">Setelah Selesai Belajar semuanya Kamu Akan Diberikan Sertifkat Kelulusan</h5>
+                  </div>
+                  <div class="col-lg-12">
+                    <i class="fa-sharp fa-solid fa-swatchbook fa-2x"></i>
+                    <p class="mt-2">Portfolio</p>
+                    <h5 style="font-weight: bold;">Kamu Akan Mendapatkan Web Portfolio Untuk Menunjang Karir kamu</h5>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container-fluid mt-5 mb-5 text-center" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 col-sm-12">
+              <h1 class="display-5">
+                About Me
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- about -->
+      <section id="about">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 animate__animated animate__backInLeft animate__delay-5s">
+                <!-- <img src="images/hp.png" alt=""> -->
+                <img src="images/my.png" alt="">
+              </div>
+              <div class="col-lg-6 col-sm-12 text-center animate__animated animate__backInRight animate__delay-2s">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.png" style="width: 200px;" alt="">
+                <p class="mt-5">Nama saya Riyan, saat ini saya bekerja disuatu perusahaan terbesar diindonesia yaitu Google sebagai IT Support dari Google.</p>
+
+                <img src="https://e7.pngegg.com/pngimages/328/113/png-clipart-freelancer-freelance-marketplace-logo-job-graphic-designer-design-web-design-text.png" style="width: 200px;" alt="" class="mt-5">
+                
+                <p class="mt-5">Saya juga pengembang aplikasi web, dan mobile yang biasanya membuka jasa pembuatan aplikasi web dinamis maupun statis</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="bg-dark">
+        <p>&copy;Copyright Muhamad Riyanto 14 November 2022</p>
+      </footer>
+
+
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
